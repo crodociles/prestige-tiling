@@ -1,0 +1,172 @@
+/*==========
+BATHROOMS
+==========*/
+
+.bathroom-cover{
+	background: url('../img/prestige-tiling-img/bathroom/prestige-bathroom-13-fade.jpg');
+	background-size: cover;
+	background-position: bottom;
+	left:1%;
+	top:30px;
+}
+.bathroom-cover-title{
+	font-size: 40pt;
+	font-family: 'Marcellus SC', serif;
+}
+.bathroom-inner-title{
+	font-size: 30pt;
+	font-family: 'Marcellus SC', serif;
+	display: inline-block;
+	position: absolute;	
+	left: 25px;
+}
+.bathroom-cover-subtitle{
+	font-size: 20pt;
+	font-family: 'Roboto Slab', serif;
+}
+.bathroom-gallery-wrapper{
+	width: 15400px;
+}
+.bathroom-gallery-close{
+	position: absolute;
+	right: 20px;
+	top: 15px;
+}
+
+/*==========
+KITCHEN
+==========*/
+
+.kitchen-cover{
+	background: url('../img/prestige-tiling-img/kitchen/prestige-kitchens-24-fade.jpg');
+	background-size: cover;
+	background-position: bottom;
+	left:1%;
+	top:530px;
+}
+.kitchen-cover-title{
+	font-size: 40pt;
+	font-family: 'Marcellus SC', serif;
+}
+.kitchen-inner-title{
+	font-size: 30pt;
+	font-family: 'Marcellus SC', serif;
+	display: inline-block;
+	position: absolute;	
+	left: 25px;
+}
+.kitchen-cover-subtitle{
+	font-size: 20pt;
+	font-family: 'Roboto Slab', serif;
+}
+.kitchen-gallery-wrapper{
+	width: 18690px;
+}
+.kitchen-gallery-close{
+	position: absolute;
+	right: 20px;
+	top: 510px;
+}
+
+/*==========
+FLOORING
+==========*/
+
+.flooring-cover{
+	background: url('../img/prestige-tiling-img/floors/prestige-floors-18-fade.jpg');
+	background-size: cover;
+	background-position: bottom;
+	left:1%;
+	top:1030px;
+}
+.flooring-cover-title{
+	font-size: 40pt;
+	font-family: 'Marcellus SC', serif;
+}
+.flooring-inner-title{
+	font-size: 30pt;
+	font-family: 'Marcellus SC', serif;
+	display: inline-block;
+	position: absolute;	
+	left: 25px;
+}
+.flooring-cover-subtitle{
+	font-size: 20pt;
+	font-family: 'Roboto Slab', serif;
+}
+.flooring-gallery-wrapper{
+	width: 7990px;
+}
+.flooring-gallery-close{
+	position: absolute;
+	right: 20px;
+	top: 1010px;
+}
+
+/*==========
+MISC
+==========*/
+
+.misc-cover{
+	background: url('../img/prestige-tiling-img/fireplaces/prestige-fireplace-2-fade.jpg');
+	background-size: cover;
+	background-position: bottom;
+	left:1%;
+	top:1530px;
+}
+.misc-cover-title{
+	font-size: 40pt;
+	font-family: 'Marcellus SC', serif;
+}
+.misc-inner-title{
+	font-size: 30pt;
+	font-family: 'Marcellus SC', serif;
+	display: inline-block;
+	position: absolute;	
+	left: 25px;
+}
+.misc-cover-subtitle{
+	font-size: 20pt;
+	font-family: 'Roboto Slab', serif;
+}
+.misc-gallery-wrapper{
+	width: 2490px;
+}
+.misc-gallery-close{
+	position: absolute;
+	right: 20px;
+	top: 1510px;
+}
+
+/*==========
+OTHER
+==========*/
+
+.gallery-cover-img{
+	height: 450px; width: 98%;
+	text-align: center;
+	position: absolute;	
+}
+.gallery-section-wrapper{
+	height:450px;
+	margin-top: 30px;
+	overflow-x:scroll;
+}
+.gallery-thumb-img-wrapper{
+	display: inline-block;
+	height: 360px;
+	margin-top: 50px;
+}
+.gallery-thumb-img{
+	display: inline-block;
+	height: 360px;
+	margin: 10px;
+	border: 1px solid #888;
+}
+.gallery-open{
+	margin-top: 120px;
+}
+.gallery-close{
+	margin-top: 30px;
+	margin-bottom: 0;
+}

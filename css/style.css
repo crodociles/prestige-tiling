@@ -1,0 +1,323 @@
+/*==========
+NAVBAR
+==========*/
+
+#menu-small{
+	display: inline-block;
+	float: left;
+	cursor: pointer;
+}
+ul{
+	padding-left:0;
+}
+.menu-small-drop{
+	background-color: #fff;
+	border: 1px solid black;
+	z-index: 99;
+	position: absolute;
+	left:0;
+	text-align: center;
+}
+.menu-dropdown-li{
+	list-style-type: none;
+	font-size: 23pt;
+	font-family: 'Marcellus SC', serif;
+	width: 200px;
+}
+#navbar{
+	background-color: #fff;
+	border: 2px solid black;
+	height:45px;
+}
+.inline-nav{
+	list-style-type: none;
+	text-align: center;
+	display: inline-block;
+	width: 90%;
+	margin-left: 3%;
+	z-index: 2;
+}
+.navbar-li{
+	display: inline-block;
+	width: 20%;
+	font-family: 'Marcellus SC', serif;
+	font-weight: 500;
+	z-index: 3;
+}
+li>a{
+	color:#000;
+	transition: color 0.2s;
+}
+li>a:hover{
+	text-decoration: none;
+	color:#929487;
+}
+.soc-med{
+	display: inline-block;
+	float:right;
+}
+.soc-med>i{
+	color:#3b5998;
+}
+.quote{
+	display: inline-block;
+	float:right;
+	margin-top: 20px;
+	font-family: 'Roboto Slab', serif;
+	color:#fff;
+	font-size: 18pt;
+}
+.quote>p>a{
+	color: #fff;
+	text-decoration: underline;
+}
+.quote>p>a:hover{
+	color: #0645AD;
+}
+
+/*==========
+LOGO
+==========*/
+
+#logo-back{
+	width: 100%;
+	background-color: #000;
+}
+#logo-img{
+	height: 100px;
+	margin:5px;
+}
+#logo{
+	display: inline-block;
+}
+
+/*==========
+STYLE
+==========*/
+
+body{
+	background: url('../img/black-back.jpg');
+	background-repeat: repeat-x;
+	background-position: right;
+	background-attachment: fixed;
+	overflow-x:hidden;
+}
+.body-cont{
+	position: relative;
+	background: url('../img/whitetile2.jpg');
+}
+
+
+/*==========
+TYPOGRAPHY
+==========*/
+
+.body-text{
+	font-family: 'Roboto Slab', serif;
+	font-size: 14pt;
+	width: 87%;
+	margin:auto;
+	text-align: center;
+}
+.services-wrapper>h1{
+	font-family: 'Marcellus SC', serif;
+	text-align: center;
+	font-size: 40pt;
+}
+#gallery-wrapper>h1{
+	font-family: 'Marcellus SC', serif;
+}
+.service-section-title{
+	font-family: 'Marcellus SC', serif;
+	font-size: 40pt;
+	color:#000;
+}
+
+/*==========
+INDEX
+==========*/
+
+.service-div{
+	height: 375px; width: 220px;
+	border: 1px solid #bbb;
+	margin: 30px auto;
+	background-color: #fff;
+	box-shadow: 0 0 4px 2px #ddd;
+}
+.service-img{
+	height:42%;
+	margin-bottom: 30px;
+}
+#service-img-1{
+	background: url('../img/prestige-tiling-img/kitchen-service-img.jpg');
+	background-position: bottom;
+	background-size:140%;
+	background-repeat: no-repeat;
+}
+#service-img-2{
+	background: url('../img/prestige-tiling-img/bathroom-service-img.jpg');
+	background-position: left;
+	background-size:130%;
+	background-repeat: no-repeat;
+}
+#service-img-3{
+	background: url('../img/prestige-tiling-img/hallway-service-img.jpg');
+	background-position: left;
+	background-size:130%;
+	background-repeat: no-repeat;
+}
+#service-img-4{
+	background: url('../img/prestige-tiling-img/floor-service-img.jpg');
+	background-position: left;
+	background-size:130%;
+	background-repeat: no-repeat;
+}
+.service-div>h6{
+	font-size: 21pt;
+	font-family: 'Marcellus SC', serif;
+}
+.service-div>p{
+	font-size: 12pt;
+	margin:5px;
+}
+.service-div> button{
+	margin-top: 20px;
+}
+
+/*==========
+MAP
+==========*/
+
+.google-map{
+	font-family: 'Marcellus SC', serif;
+	border: 1px solid #aaa;
+	box-shadow: 0 0 4px 2px #ddd;
+	background-color: #fff;
+	padding:10px;
+	width:333px;
+	margin: auto;
+}
+#gmap_canvas{
+	margin: 0 10px;
+}
+
+/*==========
+GALLERY
+==========*/
+
+.pic-thumb{
+	height: 400px;
+	margin: 10px;
+	border: 1px solid #888;
+}
+.gallery_thumb{
+	display: inline-block;
+}
+.gallery{
+	margin: 20px 0;
+	overflow-x: scroll;
+	height:default;
+}
+.pic-row{
+	background-color: #fff;
+	margin: auto;
+	border: 1px solid #aaa;	
+}
+.pic-row-bathroom{
+	width: 16920px;
+}
+.pic-row-floors{
+	width:8800px;
+}
+.pic-row-kitchens{
+	width: 14120px;
+}
+
+/*==========
+INDEX SERVICES IMAGES
+==========*/
+
+.service-page-img{
+	height: 100%;
+	width:100%;
+	margin:auto;
+	font-size: 18pt;
+	color:#ffffff;
+}
+.services-index-link{
+	color: #000;
+}
+#s-img-1{
+	background: url('../img/prestige-tiling-img/bathroom-img.jpg');
+	background-position: bottom;
+	background-size: cover;
+}
+#s-img-2{
+	background: url('../img/prestige-tiling-img/kitchen-img.jpg');
+	background-position:bottom;
+	background-size: cover;
+}
+#s-img-3{
+	background: url('../img/prestige-tiling-img/hallway-img.jpg');
+	background-position:bottom;
+	background-size: 250%;
+}
+#s-img-4{
+	background: url('../img/prestige-tiling-img/porch-img.jpg');
+	background-position:bottom;
+	background-size: cover;
+}
+#s-img-5{
+	background: url('../img/prestige-tiling-img/conservatory-img.jpg');
+	background-position:bottom;
+	background-size: cover;
+}
+#s-img-6{
+	background: url('../img/prestige-tiling-img/?-img.jpg');
+	background-position:bottom;
+	background-size: cover;
+}
+
+/*==========
+CONTACT
+==========*/
+
+.contact-wrapper{
+	font-family: 'Marcellus SC', serif;
+	font-size:20pt;
+	border: 1px solid #999;
+	background-color: #fff;
+	margin-top: 40px;
+}
+.contact-icons>a> i, .contact-icons> i{
+	vertical-align: middle;
+	margin-top: 10px;
+}
+.fa-facebook-square{
+	color:#3b5998;
+}
+.fa-phone-square{
+	color: #00ba54;
+}
+.fa-envelope-square{
+	color: #b90c13;
+}
+.phone-wrapper{
+	
+}
+.ph-num{
+	font-size: 17pt;
+}
+
+/*==========
+SERVICES
+==========*/
+
+.services-list{
+	list-style-type: none;
+	font-size: 18pt;
+}
+#services-body-text{
+	font-size: 17pt;
+	margin-top: 50px;
+}
